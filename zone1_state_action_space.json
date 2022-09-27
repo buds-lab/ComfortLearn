@@ -1,0 +1,18 @@
+{"Zone_1": {
+    "states": {
+        "day": true,
+        "hour": true,
+        "t_out": true,
+        "rh_out": false,
+        "t_set": false,
+        "t_in": true,
+        "rh_in": false,
+        "air_vel": false,
+        "occupancy": false,
+        "thermal_preference": false},
+    "actions": {
+        "t_set_update": true,
+        "air_vel_update": true,
+        "num_occupants_update": true}
+    }
+}

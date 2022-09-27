@@ -1,0 +1,17 @@
+##### experiment wide
+iterations: 100
+seed: 13
+
+##### data specific
+dataset_name: 'dorn'
+dataset: 'data/dorn/DORN_env_132.csv'
+target_column: 'thermal_cozie'
+target_values:
+    - 9.0
+    - 10.0
+    - 11.0
+categorical_features:
+    - 'clothing'
+model: 'rdf'
+scorer: 'f1_micro'
+use_val: False

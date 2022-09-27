@@ -1,0 +1,27 @@
+config_name: "baseline_zones_tolerance020_week"
+seed: 13
+
+#### environment
+data_path: "data/dorn/"
+num_new_occupants: 10 # max number of real occupants in dorn is 20
+zone_selection: "random"
+occupant_timing: "stochastic"
+# [0,1], higher = comfortable most times, lower = more sensitive
+# -1 = use real occupants
+occupant_tolerance: 0.20
+occupant_tol_file: "DORN_tol.csv"
+occupant_preference: "DORN_env.csv"
+occupant_background: "DORN_qns_filtered.csv"
+occupant_pcm: "dict_pcm_rdf_dorn_f1_micro.pkl"
+zone_attributes: "zone_attributes.json"
+weather_file: "weather_data.csv"
+zones_states_actions: "zones_state_action_space.json"
+max_steps: 672 # 96 = 1 day, 672 = 1 week, 17281 ~ 6 months
+cost_function:
+  - "unc"
+central_agent: True
+save_memory: False
+verbose: True
+
+#### agent
+agent_type: "Baseline"

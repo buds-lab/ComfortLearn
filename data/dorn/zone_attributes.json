@@ -1,0 +1,15 @@
+{"Zone_1": {
+    "model_type": "csv",
+    "model_features": ["hour","day", "t_out","rh_out","rh_in","t_set"],
+    "max_num_occupants": 20,
+    "ceiling_fans": true,
+    "allocation_flexibility": true
+    },
+"Zone_2": {
+    "model_type": "csv",
+    "model_features": ["hour","day", "t_out","rh_out","t_set"],
+    "max_num_occupants": 20,
+    "ceiling_fans": false,
+    "allocation_flexibility": true
+    }
+}
