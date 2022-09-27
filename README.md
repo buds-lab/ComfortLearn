@@ -63,16 +63,15 @@ Refer to `requirements.txt` for a list of Python library dependencies. You may i
 | `agent_type` | String | Name of the class of agent to use |
 
 ### PCM
-The current version of the platform was tested using the `Dorn` dataset @TODO: ref Dorn. You can downlaod the dataset from here.
-Each occupant in the `Dorn` dataset had a Random Forest model trained on its
+Each occupant in the occupant dataset had a Random Forest model trained on its
 data using a 5-fold cross-validation with F1-micro as evaluation metric.
 
 Details about the modeling are stored within the `config/`folder.
 Example:
 
-`python train_pcm.py configs/train_pcm_dorn.yaml`
+`python train_pcm.py configs/train_pcm_<DATASET>.yaml`
 
-This procedure is taken from `Quintana, M., Schiavon, S., Tartarini, F., Kim, J., & Miller, C. (2022). Cohort comfort models--Using occupants' similarity to predict personal thermal preference with less data. arXiv preprint arXiv:2208.03078.`
+This procedure is taken from *Quintana, M., Schiavon, S., Tartarini, F., Kim, J., & Miller, C. (2022). Cohort comfort models--Using occupants' similarity to predict personal thermal preference with less data. arXiv preprint arXiv:2208.03078.*
 
 ## Simulation
 To execute one full run of the simulation, simply run:
@@ -96,6 +95,7 @@ The building and thermal comfort datasets were obtained in Singapore (tropical c
 In total, two rooms with different ventilation mechanism from an educational building were chosen.
 These rooms are university classrooms that host students throughout the academic year and environmental data is continuously being logged by the building's BMS system.
 The period of analysis is one full work week, 2021-10-18 to 2021-10-22, middle of the fall semester, and time steps of 15 minutes are chosen.
+The dataset can be download here. @TODO: add URL
 
 More simulation parameters and their values chosen for this case study are:
 
