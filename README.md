@@ -111,11 +111,13 @@ More simulation parameters and their values chosen for this case study are:
 | Iterations              | 30                                                      |
 
 ### Results
-![heatmaps](img/heatmp_baseline_zones_tolerance060_week_iters.png)
+![](img/heatmp_baseline_zones_tolerance060_week_iters.png)
+
 Daily average UNC values for each occupant averaged over 30 simulations for occupants with tolerance of $0.6$.
 The **lower** the better.
 
-![time series](img/unc_ts.png)
+![](img/unc_ts.png)
+
 Time-series of UNC values throughout a week for a single occupant of tolerance $1.0$ (top) and $0.6$ (bottom).
 Darker line is the mean over time with shaded region represented by 2-standard deviation and a dashed line at a UNC value of $0.5$.
 The **lower** the better.
