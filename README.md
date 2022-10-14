@@ -132,4 +132,5 @@ Main editable files for own submissions:
 - ``reward_function.py``
 
 ## Cite ComfortLearn
-@TODO: RLEM paper
+[Quintana, M., Nagy, Z., Tartarini, F., Schiavon, S., & Miller, C. (2022). ComfortLearn: Enabling agent-based occupant-centric building controls. Third ACM SIGEnergy Workshop on Reinforcement Learning for Energy Management in Buildings & Cities (RLEM) (RLEM ’22), 4. https://doi.org/10.1145/3563357.3566167
+](https://doi.org/10.1145/3563357.3566167)
