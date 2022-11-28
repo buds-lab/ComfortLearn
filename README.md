@@ -95,7 +95,7 @@ The building and thermal comfort datasets were obtained in Singapore (tropical c
 In total, two rooms with different ventilation mechanism from an educational building were chosen.
 These rooms are university classrooms that host students throughout the academic year and environmental data is continuously being logged by the building's BMS system.
 The period of analysis is one full work week, 2021-10-18 to 2021-10-22, middle of the fall semester, and time steps of 15 minutes are chosen.
-The dataset can be download here. @TODO: add URL
+The dataset can be download [**here**](https://github.com/FedericoTartarini/dorn-longitudinal-tc-study).
 
 More simulation parameters and their values chosen for this case study are:
 
