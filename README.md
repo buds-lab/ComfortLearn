@@ -71,7 +71,7 @@ Example:
 
 `python train_pcm.py configs/train_pcm_<DATASET>.yaml`
 
-This procedure is taken from *Quintana, M., Schiavon, S., Tartarini, F., Kim, J., & Miller, C. (2022). Cohort comfort models--Using occupants' similarity to predict personal thermal preference with less data. arXiv preprint arXiv:2208.03078.*
+This procedure is taken from [**Quintana, M., Schiavon, S., Tartarini, F., Kim, J., & Miller, C. (2022). Cohort comfort models--Using occupants' similarity to predict personal thermal preference with less data. arXiv preprint arXiv:2208.03078**](https://arxiv.org/abs/2208.03078).
 
 ## Simulation
 To execute one full run of the simulation, simply run:
